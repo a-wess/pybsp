@@ -66,7 +66,4 @@ class BSP():
 		self.VBO = self._loader.preload_vertices(context)
 		self.lightmaps = self._loader.preload_lightmaps(context)
 		self._loader = None
-	def get_random_position(self):
-		
-
 

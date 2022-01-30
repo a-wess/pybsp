@@ -17,7 +17,7 @@ wnd.push_handlers(keys)
 
 ctx = ModernGL.create_context()
 ctx.enable(ModernGL.DEPTH_TEST)
-ctx.wireframe = True
+#ctx.wireframe = True
 
 pos = (812.0, 64.0, -856.0)
 forward = m.cross(pos, (0.0, 1.0, 0.0))
